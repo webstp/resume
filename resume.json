@@ -1,0 +1,137 @@
+{
+    "basics": {
+      "name": "Patrick Webster",
+      "label": "Software Engineer, Programmer",
+      "picture": "",
+      "email": "ptwbstr@gmail.com",
+      "phone": "",
+      "website": "",
+      "summary": "Patrick Webster is a Software Engineer with 5 years experience building software applications. He is a full stack developer with a passion for frontend web-based technologies. Patrick is adept and enthusiastic about learning new technologies and bringing his previous experience to a motivated team.",
+      "location": {
+        "city": "Moncton",
+        "countryCode": "Canada"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "ACoAAB98fIIBSpqpV2xWLFk2Hl0DnWlCtPft7ZE",
+          "url": "https://www.linkedin.com/in/ptwbstr"
+        },
+        {
+          "network": "Github",
+          "username": "webstp",
+          "url": "https://github.com/webstp"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "Akiri",
+        "website": "https://akiri.com/",
+        "position": "Software Engineer",
+        "startDate": "2017-12-18",
+        "summary": "Worked at Akiri, a healthcare networking start-up, building a cloud-based product aimed at resolving the problems around the exchanging healthcare data.",
+        "highlights": [
+          "Built a web-based user interface for cloud-based network to facilitate the exchange of healthcare information.",
+          "Built a authentication solution around Auth0. This includes email notification around password management.",
+          "Responsible for Unit and E2E testing of user interface using Jest and Cypress.",
+          "Responsible for security and performance optimization of the web-based user interface.",
+          "Leveraged technologies such as Docker, Kotlin, Vertx, Vue, and Vuetify."
+        ]
+      },
+      {
+        "company": "Dell EMC",
+        "website": "https://dellemc.com",
+        "position": "Software Engineer",
+        "startDate": "2016-11-15",
+        "endDate": "2017-12-18",
+        "summary": "Worked with a team building a product codenamed Nautilus, a real-time analytics platform that combines the power of Apache Flink and Pravega, a new open source project for streaming storage.",
+        "highlights": [
+          "Built a web-based user interface for the management and monitoring of Pravega and Flink",
+          "Built a monitoring solution based on the influx TICK stack on top of DCOS.",
+          "Built live charts to view the real-time streaming data.",
+          "Responsible for Unit and E2E testing of user interface using Protractor and Jasmine.",
+          "Leveraged technologies such as Mesos, DCOS, Docker, InfluxDB, and Angular."
+        ]
+      },
+      {
+        "company": "EMC Corporation",
+        "position": "Software Engineer",
+        "startDate": "2014-05-15",
+        "endDate": "2016-11-15",
+        "summary": "Worked on a UI team building Neutrino, an appliance that provided a turn-key OpenStack cluster.",
+        "highlights": [
+          "Built a web-based user interface for installation, upgrade, monitoring and management of container services.",
+          "Built a task monitoring solution that enabled visibility into service deployement.",
+          "Migrated the UI from AngularJS to Angular 2 in a phased approach.",
+          "Implemented a web-based version of ScaleIO's UI using AngularJS.",
+          "Build a solution around Websockets for keeping UI instance in sync.",
+          "Leveraged technologies such as Docker, Java, Angular, Websockets, and RxJS."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "St. Francis Xavier University",
+        "area": "Computer Science",
+        "studyType": "Bachelor of Science (B.S.)",
+        "startDate": "2006-12-31",
+        "endDate": "2010-12-31"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Agile Methodologies",
+        "keywords": [
+          "Kanban",
+          "Scrum"
+        ]
+      },
+      {
+        "name": "Programming",
+        "keywords": [
+          "Kotlin",
+          "Java",
+          "Javascript",
+          "Typescript",
+          "Python"
+        ]
+      },
+      {
+        "name": "Web Technologies",
+        "keywords": [
+          "HTML5",
+          "SASS/CSS",
+          "JSON",
+          "NodeJS",
+          "Angular/AngularJS",
+          "RxJS",
+          "REST",
+          "WebSockets",
+          "Vue/Vuetify"
+        ]
+      },
+      {
+        "name": "Containers",
+        "keywords": [
+          "Docker",
+          "Kubernetes"
+        ]
+      },
+      {
+        "name": "Software Tools",
+        "keywords": [
+          "IntelliJ",
+          "VS Code",
+          "Jenkins",
+          "JIRA",
+          "Github",
+          "BitBucket"
+        ]
+      },
+      {
+        "name": "Version Control",
+        "keywords": [ "GIT" ]
+      }
+    ]
+  }
