@@ -14,7 +14,7 @@
       "profiles": [
         {
           "network": "LinkedIn",
-          "username": "ACoAAB98fIIBSpqpV2xWLFk2Hl0DnWlCtPft7ZE",
+          "username": "Patrick Webster",
           "url": "https://www.linkedin.com/in/ptwbstr"
         },
         {
@@ -30,7 +30,7 @@
         "website": "https://akiri.com/",
         "position": "Software Engineer",
         "startDate": "2017-12-18",
-        "summary": "Worked at Akiri, a healthcare networking start-up, building a cloud-based product aimed at resolving the problems around the exchanging healthcare data.",
+        "summary": "Worked at Akiri, a healthcare networking start-up, building a cloud-based product aimed at resolving the problems around the exchanging of healthcare data.",
         "highlights": [
           "Responsible for leading the development of the UI.",
           "Design and built an authentication solution around Auth0. This includes email notification around password management.",
@@ -50,7 +50,7 @@
         "highlights": [
           "Designed and built a web-based user interface for the management and monitoring of Pravega and Flink",
           "Built a monitoring solution based on the influx TICK stack on top of DCOS.",
-          "Design and built live charts to view the real-time streaming data.",
+          "Designed and built live charts to view the real-time streaming data.",
           "Built an tool to track and record npm open source dependencies licenses.",
           "Responsible for Unit and E2E testing of user interface using Protractor and Jasmine.",
           "Leveraged technologies such as Mesos, DCOS, Docker, InfluxDB, and Angular."
