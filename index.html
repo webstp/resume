@@ -1,0 +1,753 @@
+<!doctype html>
+<html>
+<head>
+  <title>Patrick Webster — Software Developer</title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive HTML5 Developer Resume for Patrick Webster">
+
+  <link
+    href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Plugins CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!-- Theme CSS -->
+  <style>
+    body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #545e6c;
+  background: #f5f5f5;
+  font-size: 16px;
+  padding: 3rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+a {
+  color: #42a8c0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+p {
+  font-weight: 300;
+}
+
+section {
+  padding: 1em;
+}
+section + section {
+  padding-top: 0px;
+}
+
+.container-lg {
+  padding: 0;
+  background: #fff;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.detail {
+  padding-left: 40px;
+}
+.detail .title {
+  margin-left: -40px;
+}
+.detail .detail-item {
+  padding: 10px 0;
+  margin: 0 3px;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+}
+.detail .detail-item + .detail-item {
+  margin-top: 10px;
+}
+.detail .detail-item .detail-item-content .detail-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0.5em 0;
+}
+.detail .detail-item .detail-item-content .detail-item-header h4 {
+  margin: 0;
+}
+.detail .detail-item .detail-item-content .detail-item-header h4 strong::after {
+  content: ", ";
+  font-weight: 300;
+}
+.detail .detail-item .detail-item-content .category {
+  margin-top: 5px;
+}
+.detail .detail-item .detail-item-content .highlights {
+  list-style: none;
+  padding-left: 0;
+}
+.detail .detail-item .detail-item-content .highlights li {
+  padding-left: 1em;
+}
+.detail .detail-item .detail-item-content .highlights li::before {
+  content: "-";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-weight: 700;
+}
+.detail .detail-item .detail-item-content .keyword {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  background: #42a8c0;
+  margin-right: 3px;
+}
+
+.fa {
+  display: inline-flex;
+  margin-right: 10px;
+  font-size: 18px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  background: #42a8c0;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar {
+  background-color: #42a8c0;
+  color: #fff;
+}
+.sidebar .nav-link a {
+  color: #fff;
+}
+.sidebar .nav-link:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+.sidebar .nav-link .fa {
+  background: none;
+}
+.sidebar .text-muted {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+.sidebar .detail .detail-item {
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  margin-left: -35px;
+  margin-right: 5px;
+}
+.sidebar .detail .detail-item .detail-item-content .keyword {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.contact-wrapper .detail {
+  padding-left: 0;
+}
+
+.profile-wrapper {
+  padding: 0.5em;
+  margin-bottom: 15px;
+  background: rgba(0, 0, 0, 0.25);
+}
+.profile-wrapper .profile {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.profile-wrapper .profile img {
+  border-radius: 50%;
+}
+
+@media (max-width: 991px) {
+  .detail {
+    padding-left: 0px;
+  }
+  .detail .title {
+    margin-left: 0px;
+  }
+}
+@media print {
+  body {
+    color: #212121;
+    padding: 0 !important;
+    background: none;
+  }
+
+  a:not(.btn) {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .badge {
+    border: 0;
+  }
+  .badge.keyword {
+    font-weight: 300 !important;
+    color: inherit !important;
+    background: none !important;
+  }
+
+  .sidebar {
+    background: none;
+    color: inherit;
+    padding: 1.5rem 1.5rem 0 1.5rem !important;
+  }
+  .sidebar + .main {
+    padding-top: 0 !important;
+  }
+  .sidebar .nav {
+    justify-content: start !important;
+  }
+  .sidebar .nav .nav-link {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .sidebar .nav .nav-link::before {
+    content: attr(data-label);
+    font-weight: 400;
+  }
+  .sidebar .nav .nav-link a {
+    color: inherit;
+  }
+  .sidebar .nav .nav-link a .fa {
+    display: none;
+  }
+  .sidebar .text-muted {
+    color: #6c757d !important;
+  }
+  .sidebar .profile-wrapper {
+    background: none;
+    padding: 1em;
+    flex-direction: row !important;
+  }
+  .sidebar .profile-wrapper .profile {
+    flex: 0 0 25%;
+    text-align: right;
+    padding-right: 30px;
+  }
+
+  .profile-item a[href] .name {
+    display: none;
+  }
+  .profile-item a[href]::after {
+    content: attr(data-short-url) !important;
+  }
+
+  .detail > *, .detail > .detail-item {
+    margin-left: 25%;
+  }
+  .detail .title {
+    display: block !important;
+    float: left;
+    text-align: right;
+    padding-right: 30px;
+    width: 25%;
+  }
+  .detail .title .fa {
+    display: none;
+  }
+  .detail .detail-item {
+    border-top: none;
+    padding: 0;
+  }
+  .detail .detail-item .detail-item-header {
+    margin-top: 0 !important;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  }
+}
+  </style>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+  <div class="container-lg">
+    <div class="row no-gutters">
+      <div class="col-lg-4 sidebar">
+        <section class="profile-wrapper d-flex flex-column align-items-center">
+          <div class="profile">
+            <img src="headshot.jpg" alt="" width="128" height="128" />
+          </div>
+          <div>
+            <h1 class="name">Patrick Webster</h1>
+            <h2 class="text-muted">Software Developer</h2>
+          </div>
+        </section>
+        <section class="contact-wrapper">
+          <div class="detail">
+            <h3 class="title text-uppercase d-none">Contact</h3>
+            <ul class="nav flex-lg-column mx-lg-n3 justify-content-center">
+              <li class="nav-link" data-label="Phone">
+                <a href="tel:0514177164" data-scrambled-phone-link>
+                  <i class="fa fa-phone"></i><span>506-<span style="display:none;">1337</span>962-2619</span>
+                </a>
+              </li>
+              <li class="nav-link" data-label="Email">
+                <a href="mailto:cgjofge@tznvy.pbz" data-scrambled-email-link>
+                  <i class="fa fa-envelope"></i><span data-scramble-email-text>ptwb<span style="display:none;">1337</span>str@gmail.com</span>
+                </a>
+              </li>
+              <li class="nav-link d-print-none">
+                <a href="https://www.google.com/maps?q=%20Moncton%20Canada" target="_blank" rel="noreferrer noopener" itemprop="address" itemscope
+                  itemtype="http://schema.org/PostalAddress">
+                  <i aria-hidden="true" class="fa fa-location-arrow"></i>
+                  <span class="info">
+                    
+                    <span itemprop="addressLocality">Moncton,</span>
+                    
+                    
+                    <span itemprop="addressCountry">Canada</span>
+                  </span>
+                </a>
+              </li>
+        
+        
+              <li class="profile-item nav-link" data-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/ptwbstr" target="_blank" data-short-url="www.linkedin.com/in/ptwbstr">
+                  <i class="fa fa-linkedin"></i>
+                  <span class="name">LinkedIn</span>
+                </a>
+              </li>
+              <li class="profile-item nav-link" data-label="Github">
+                <a href="https://github.com/webstp" target="_blank" data-short-url="github.com/webstp">
+                  <i class="fa fa-github"></i>
+                  <span class="name">Github</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="d-lg-block d-none">
+          <section class="skills-wrapper">
+            <div class="detail">
+              <h3 class="text-uppercase title"><i class="fa fa-code"></i>Skills</h3>
+          
+              <ul class="list-unstyled">
+                <li class="detail-item">
+                  <div class="detail-item-content">
+                    <h4>
+                      <strong>Programming</strong>
+                    </h4>
+          
+                    <ul class="list-inline">
+                      <li class="badge badge-pill keyword">Kotlin</li><li class="badge badge-pill keyword">Java</li><li class="badge badge-pill keyword">Javascript</li><li class="badge badge-pill keyword">Typescript</li><li class="badge badge-pill keyword">Python</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="detail-item">
+                  <div class="detail-item-content">
+                    <h4>
+                      <strong>Web Technologies</strong>
+                    </h4>
+          
+                    <ul class="list-inline">
+                      <li class="badge badge-pill keyword">HTML5</li><li class="badge badge-pill keyword">SASS/LESS/CSS</li><li class="badge badge-pill keyword">JSON</li><li class="badge badge-pill keyword">NodeJS</li><li class="badge badge-pill keyword">Angular/AngularJS</li><li class="badge badge-pill keyword">RxJS</li><li class="badge badge-pill keyword">REST</li><li class="badge badge-pill keyword">WebSockets</li><li class="badge badge-pill keyword">Vue/Vuetify</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="detail-item">
+                  <div class="detail-item-content">
+                    <h4>
+                      <strong>Infrastructure</strong>
+                    </h4>
+          
+                    <ul class="list-inline">
+                      <li class="badge badge-pill keyword">Docker</li><li class="badge badge-pill keyword">Kubernetes</li><li class="badge badge-pill keyword">Terraform</li><li class="badge badge-pill keyword">Amazon Web Services</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="detail-item">
+                  <div class="detail-item-content">
+                    <h4>
+                      <strong>Developer Tools</strong>
+                    </h4>
+          
+                    <ul class="list-inline">
+                      <li class="badge badge-pill keyword">Git</li><li class="badge badge-pill keyword">IntelliJ</li><li class="badge badge-pill keyword">VS Code</li><li class="badge badge-pill keyword">Jenkins</li><li class="badge badge-pill keyword">JIRA</li><li class="badge badge-pill keyword">Github</li><li class="badge badge-pill keyword">BitBucket</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="languages-wrapper">
+            <div class="detail">
+              <h3 class="text-uppercase title"><i class="fa fa-comment"></i>Languages</h3>
+              <ul class="list-unstyled">
+                <li class="detail-item">English<span class="text-muted">&nbsp(Native Speaker)</span></li>
+                <li class="detail-item">French<span class="text-muted">&nbsp(Intermediate)</span></li>
+              </ul>
+            </div>
+          </section>
+          <section class="interests-wrapper">
+            <div class="detail">
+              <h3 class="text-uppercase title"><i class="fa fa-heart"></i>Interests</h3>
+              <ul class="list-unstyled">
+                <li class="detail-item">
+                  <div class="detail-item-content">
+                    <h4 class="category"><strong>Home Automation</strong></h4>
+                    <ul class="list-inline">
+                      <li class="badge badge-pill keyword">Home Assistant</li><li class="badge badge-pill keyword">Raspberry Pi</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="detail-item">
+                  <div class="detail-item-content">
+                    <h4 class="category"><strong>Board Games</strong></h4>
+                    <ul class="list-inline">
+                      <li class="badge badge-pill keyword">Ticket to Ride</li><li class="badge badge-pill keyword">Catan</li><li class="badge badge-pill keyword">Betrayal at House on the Hill</li><li class="badge badge-pill keyword">Diplomacy</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="col-lg-8 p-4 main">
+        <section class="summary-wrapper">
+          <div class="detail">
+            <h3 class="title text-uppercase"><i class="fa fa-user"></i>About</h3>
+            <div class="detail-item">
+              <p>Software Engineer with 5+ years experience building software applications. I am a full stack developer with a passion for frontend web-based technologies. Extensive experience improving code quality through automated tests. I am looking for new challenges where I can learn new technologies and bringing my previous experience to a motivated team.</p>
+            </div>
+          </div>
+        </section>
+        <section class="experiences-wrapper">
+          <div class="detail">
+            <h3 class="title text-uppercase"><i class="fa fa-building"></i>Experience</h3>
+        
+            <ul class="list-unstyled">
+              <li class="detail-item">
+                <div class="detail-item-content">
+                  <div class="detail-item-header">
+                    <h4>
+                      <strong>Software Engineer</strong>
+                      <a href="https://akiri.com/" target="_blank">Akiri</a>
+                    </h4>
+        
+                    <span class="text-muted">
+                      <small>
+                        <time datetime="2017-12-18">December 2017</time>&nbsp;—&nbsp;
+                        <time>Present</time>
+                      </small>
+                    </span>
+        
+                  </div>
+                  <p>Worked at Akiri, a healthcare networking start-up, building a cloud-based product aimed at resolving the problems around the exchanging of healthcare data.</p>
+                  <ul class="highlights">
+                    <li>Responsible for leading the development of the UI.</li>
+                    <li>Design and built an authentication solution around Auth0. This includes email notification around password management.</li>
+                    <li>Responsible for Unit and E2E testing of user interface using Jest and Cypress.</li>
+                    <li>Responsible for security and performance optimization of the web-based user interface.</li>
+                    <li>Mentored junior developers by providing code reviews, feedback and advising on UI design.</li>
+                    <li>Leveraged technologies such as Docker, Kotlin, Vertx, Vue, and Vuetify.</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="detail-item">
+                <div class="detail-item-content">
+                  <div class="detail-item-header">
+                    <h4>
+                      <strong>Software Engineer</strong>
+                      <a href="https://dellemc.com" target="_blank">Dell EMC</a>
+                    </h4>
+        
+                    <span class="text-muted">
+                      <small>
+                        <time datetime="2016-11-15">November 2016</time>&nbsp;—&nbsp;
+                        <time datetime="2017-12-18">December 2017</time>
+                      </small>
+                    </span>
+        
+                  </div>
+                  <p>Worked with a team building a product codenamed Nautilus, a real-time analytics platform that combines the power of Apache Flink and Pravega, a new open source project for streaming storage.</p>
+                  <ul class="highlights">
+                    <li>Designed and built a web-based user interface for the management and monitoring of Pravega and Flink</li>
+                    <li>Built a monitoring solution based on the influx TICK stack on top of DCOS.</li>
+                    <li>Designed and built live charts to view the real-time streaming data.</li>
+                    <li>Built an tool to track and record npm open source dependencies licenses.</li>
+                    <li>Responsible for Unit and E2E testing of user interface using Protractor and Jasmine.</li>
+                    <li>Leveraged technologies such as Mesos, DCOS, Docker, InfluxDB, and Angular.</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="detail-item">
+                <div class="detail-item-content">
+                  <div class="detail-item-header">
+                    <h4>
+                      <strong>Software Engineer</strong>
+                      <span>EMC Corporation</span>
+                    </h4>
+        
+                    <span class="text-muted">
+                      <small>
+                        <time datetime="2014-05-15">May 2014</time>&nbsp;—&nbsp;
+                        <time datetime="2016-11-15">November 2016</time>
+                      </small>
+                    </span>
+        
+                  </div>
+                  <p>Worked on a UI team building Neutrino, an appliance that provided a turn-key OpenStack cluster.</p>
+                  <ul class="highlights">
+                    <li>Built a web-based user interface for installation, upgrade, monitoring and management of container services.</li>
+                    <li>Built a task monitoring solution that enabled visibility into service deployement.</li>
+                    <li>Migrated the UI from AngularJS to Angular 2 in a phased approach.</li>
+                    <li>Implemented a web-based version of ScaleIO&#x27;s UI using AngularJS.</li>
+                    <li>Built a solution around Websockets for keeping UI instances in sync.</li>
+                    <li>Leveraged technologies such as Docker, Java, Angular, Websockets, and RxJS.</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="education-wrapper">
+          <div class="detail">
+            <h3 class="title text-uppercase"><i class="fa fa-graduation-cap"></i>Education</h3>
+            <ul class="list-unstyled">
+              <li class="detail-item">
+                <div class="detail-item-content">
+                  <div class="detail-item-header">
+                      <h4><strong>St. Francis Xavier University</strong></h4>
+        
+                    <span class="text-muted">
+                      <small>
+                        <time datetime="2006-12-31">December 2006</time>&nbsp;—&nbsp;
+                        <time datetime="2010-12-31">December 2010</time>
+                      </small>
+                    </span>
+                  </div>
+        
+                  <span>Computer Science</span>
+                  ,&nbsp<span>Bachelor of Science (B.S.)</span>
+        
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="d-lg-none">
+        <section class="skills-wrapper">
+          <div class="detail">
+            <h3 class="text-uppercase title"><i class="fa fa-code"></i>Skills</h3>
+        
+            <ul class="list-unstyled">
+              <li class="detail-item">
+                <div class="detail-item-content">
+                  <h4>
+                    <strong>Programming</strong>
+                  </h4>
+        
+                  <ul class="list-inline">
+                    <li class="badge badge-pill keyword">Kotlin</li><li class="badge badge-pill keyword">Java</li><li class="badge badge-pill keyword">Javascript</li><li class="badge badge-pill keyword">Typescript</li><li class="badge badge-pill keyword">Python</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="detail-item">
+                <div class="detail-item-content">
+                  <h4>
+                    <strong>Web Technologies</strong>
+                  </h4>
+        
+                  <ul class="list-inline">
+                    <li class="badge badge-pill keyword">HTML5</li><li class="badge badge-pill keyword">SASS/LESS/CSS</li><li class="badge badge-pill keyword">JSON</li><li class="badge badge-pill keyword">NodeJS</li><li class="badge badge-pill keyword">Angular/AngularJS</li><li class="badge badge-pill keyword">RxJS</li><li class="badge badge-pill keyword">REST</li><li class="badge badge-pill keyword">WebSockets</li><li class="badge badge-pill keyword">Vue/Vuetify</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="detail-item">
+                <div class="detail-item-content">
+                  <h4>
+                    <strong>Infrastructure</strong>
+                  </h4>
+        
+                  <ul class="list-inline">
+                    <li class="badge badge-pill keyword">Docker</li><li class="badge badge-pill keyword">Kubernetes</li><li class="badge badge-pill keyword">Terraform</li><li class="badge badge-pill keyword">Amazon Web Services</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="detail-item">
+                <div class="detail-item-content">
+                  <h4>
+                    <strong>Developer Tools</strong>
+                  </h4>
+        
+                  <ul class="list-inline">
+                    <li class="badge badge-pill keyword">Git</li><li class="badge badge-pill keyword">IntelliJ</li><li class="badge badge-pill keyword">VS Code</li><li class="badge badge-pill keyword">Jenkins</li><li class="badge badge-pill keyword">JIRA</li><li class="badge badge-pill keyword">Github</li><li class="badge badge-pill keyword">BitBucket</li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        </div>
+        <div class="d-lg-none">
+          <section class="languages-wrapper">
+            <div class="detail">
+              <h3 class="text-uppercase title"><i class="fa fa-comment"></i>Languages</h3>
+              <ul class="list-unstyled">
+                <li class="detail-item">English<span class="text-muted">&nbsp(Native Speaker)</span></li>
+                <li class="detail-item">French<span class="text-muted">&nbsp(Intermediate)</span></li>
+              </ul>
+            </div>
+          </section>
+          <section class="interests-wrapper">
+            <div class="detail">
+              <h3 class="text-uppercase title"><i class="fa fa-heart"></i>Interests</h3>
+              <ul class="list-unstyled">
+                <li class="detail-item">
+                  <div class="detail-item-content">
+                    <h4 class="category"><strong>Home Automation</strong></h4>
+                    <ul class="list-inline">
+                      <li class="badge badge-pill keyword">Home Assistant</li><li class="badge badge-pill keyword">Raspberry Pi</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="detail-item">
+                  <div class="detail-item-content">
+                    <h4 class="category"><strong>Board Games</strong></h4>
+                    <ul class="list-inline">
+                      <li class="badge badge-pill keyword">Ticket to Ride</li><li class="badge badge-pill keyword">Catan</li><li class="badge badge-pill keyword">Betrayal at House on the Hill</li><li class="badge badge-pill keyword">Diplomacy</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+          integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+          crossorigin="anonymous"></script>
+  <!-- custom js -->
+  <script type="text/javascript">
+    (function wrapEmailScramble(root, factory) {
+  'use strict';
+  if (typeof define === 'function' && define.amd) {
+    define('email-scramble', factory(root));
+  } else if (typeof exports === 'object') {
+    module.exports = factory(root);
+  } else {
+    root.emailScramble = factory(root);
+  }
+}(this, function emailScramble(root) {
+  'use strict';
+
+  // Largely taken from https://github.com/mathiasbynens/rot.
+  var rot = function rot(charRot, numRot, str) {
+    var numbers = '0123456789';
+    var lowercase = 'abcdefghijklmnopqrstuvwxyz';
+    var uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    var regexNumber = /[0-9]/;
+    var regexLowercase = /[a-z]/;
+    var regexUppercase = /[A-Z]/;
+
+    str = String(str);
+
+    if (charRot < 0) {
+      charRot += 26;
+    }
+    if (numRot < 0) {
+      numRot += 10;
+    }
+    var length = str.length; // note: no need to account for astral symbols
+    var index = -1;
+    var result = '';
+    var character;
+    var currentPosition;
+    var shiftedPosition;
+    while (++index < length) {
+      character = str.charAt(index);
+      if (regexNumber.test(character)) {
+        currentPosition = numbers.indexOf(character);
+        shiftedPosition = (currentPosition + numRot) % 10;
+        result += numbers.charAt(shiftedPosition);
+      } else if (regexLowercase.test(character)) {
+        currentPosition = lowercase.indexOf(character);
+        shiftedPosition = (currentPosition + charRot) % 26;
+        result += lowercase.charAt(shiftedPosition);
+      } else if (regexUppercase.test(character)) {
+        currentPosition = uppercase.indexOf(character);
+        shiftedPosition = (currentPosition + charRot) % 26;
+        result += uppercase.charAt(shiftedPosition);
+      } else {
+        result += character;
+      }
+    }
+    return result;
+  };
+
+  var rot18 = function rot18(str) {
+    return rot(13, 5, str);
+  };
+
+  return {
+    rot: rot,
+    encode: rot18,
+    decode: rot18
+  };
+}));
+
+    const mailtoLink = document.querySelectorAll('[data-scrambled-email-link]')[0];
+mailtoLink.href =
+    'mailto:' + window.emailScramble.decode(mailtoLink.href.replace('mailto:', ''));
+
+const phoneLink = document.querySelectorAll('[data-scrambled-phone-link]')[0];
+phoneLink.href =
+    'tel:' + window.emailScramble.decode(phoneLink.href.replace('tel:', ''));
+  </script>
+</body>
+
+</html>
