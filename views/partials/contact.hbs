@@ -1,0 +1,58 @@
+{{#resume.basics}}
+<section class="contact-wrapper">
+  <div class="detail">
+    <h3 class="title text-uppercase d-none">Contact</h3>
+    <ul class="nav flex-lg-column mx-lg-n3 justify-content-center">
+      {{#if phone}}
+      <li class="nav-link" data-label="Phone">
+        <a href="tel:{{scramblePhone phone}}" data-scrambled-phone-link>
+          <i class="fa fa-phone"></i><span>{{obfuscateText phone}}</span>
+        </a>
+      </li>
+      {{/if}}
+      {{#if email}}
+      <li class="nav-link" data-label="Email">
+        <a href="mailto:{{scrambleText email}}" data-scrambled-email-link>
+          <i class="fa fa-envelope"></i><span data-scramble-email-text>{{obfuscateText email}}</span>
+        </a>
+      </li>
+      {{/if}}
+      {{#if location}}
+      <li class="nav-link d-print-none">
+        {{#location}}
+        <a href="{{mapUrl this}}" target="_blank" rel="noreferrer noopener" itemprop="address" itemscope
+          itemtype="http://schema.org/PostalAddress">
+          <i aria-hidden="true" class="fa fa-location-arrow"></i>
+          <span class="info">
+            {{#if address}}<span itemprop="streetAddress">{{address}},</span>{{/if}}
+            {{#if city}}<span itemprop="addressLocality">{{city}},</span>{{/if}}
+            {{#if postalCode}}<span itemprop="postalCode">{{postalCode}},</span>{{/if}}
+            {{#if region}}<span itemprop="addressRegion">{{region}},</span>{{/if}}
+            {{#if countryCode}}<span itemprop="addressCountry">{{countryCode}}</span>{{/if}}
+          </span>
+        </a>
+        {{/location}}
+      </li>
+      {{/if}}
+
+      {{#if url}}
+      <li class="nav-link">
+        <a href="{{url}}" target="_blank">
+          <i class="fa fa-globe"></i>
+          <span>{{sanitizeUrl url}}</span>
+        </a>
+      </li>
+      {{/if}}
+
+      {{#each profiles}}
+      <li class="profile-item nav-link" data-label="{{network}}">
+        <a href="{{url}}" target="_blank" data-short-url="{{sanitizeUrl url}}">
+          <i class="fa fa-{{toLowerCase network}}"></i>
+          <span class="name">{{network}}</span>
+        </a>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>
+{{/resume.basics}}

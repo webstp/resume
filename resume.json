@@ -2,9 +2,9 @@
     "basics": {
       "name": "Patrick Webster",
       "label": "Software Developer",
-      "picture": "https://raw.githubusercontent.com/webstp/resume/master/headshot.jpg",
+      "picture": "headshot.jpg",
       "email": "ptwbstr@gmail.com",
-      "phone": "",
+      "phone": "506-962-2619",
       "website": "",
       "summary": "Software Engineer with 5+ years experience building software applications. I am a full stack developer with a passion for frontend web-based technologies. Extensive experience improving code quality through automated tests. I am looking for new challenges where I can learn new technologies and bringing my previous experience to a motivated team.",
       "location": {
@@ -83,13 +83,6 @@
     ],
     "skills": [
       {
-        "name": "Agile Methodologies",
-        "keywords": [
-          "Kanban",
-          "Scrum"
-        ]
-      },
-      {
         "name": "Programming",
         "keywords": [
           "Kotlin",
@@ -103,7 +96,7 @@
         "name": "Web Technologies",
         "keywords": [
           "HTML5",
-          "SASS/CSS",
+          "SASS/LESS/CSS",
           "JSON",
           "NodeJS",
           "Angular/AngularJS",
@@ -114,15 +107,18 @@
         ]
       },
       {
-        "name": "Containers",
+        "name": "Infrastructure",
         "keywords": [
           "Docker",
-          "Kubernetes"
+          "Kubernetes",
+          "Terraform",
+          "Amazon Web Services"
         ]
       },
       {
-        "name": "Software Tools",
+        "name": "Developer Tools",
         "keywords": [
+          "Git",
           "IntelliJ",
           "VS Code",
           "Jenkins",
@@ -130,10 +126,34 @@
           "Github",
           "BitBucket"
         ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Native Speaker"
+      }, 
+      {
+        "language": "French",
+        "fluency": "Intermediate"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Home Automation",
+        "keywords": [
+          "Home Assistant",
+          "Raspberry Pi"
+        ]
       },
       {
-        "name": "Version Control",
-        "keywords": [ "GIT" ]
+        "name": "Board Games",
+        "keywords": [
+          "Ticket to Ride",
+          "Catan",
+          "Betrayal at House on the Hill",
+          "Diplomacy"
+        ]
       }
     ]
   }

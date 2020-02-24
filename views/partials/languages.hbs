@@ -1,0 +1,12 @@
+{{#if resume.languages}}
+<section class="languages-wrapper">
+  <div class="detail">
+    <h3 class="text-uppercase title"><i class="fa fa-comment"></i>Languages</h3>
+    <ul class="list-unstyled">
+      {{#resume.languages}}
+      <li class="detail-item">{{language}}<span class="text-muted">&nbsp({{fluency}})</span></li>
+      {{/resume.languages}}
+    </ul>
+  </div>
+</section>
+{{/if}}

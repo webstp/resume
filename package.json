@@ -1,0 +1,27 @@
+{
+  "name": "jsonresume-theme-webstp",
+  "version": "1.0.0",
+  "description": "Theme for JSON Resume based on Orbit design by XuluWarrior",
+  "author": "Patrick Webster",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webstp/resume.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "./build.js"
+  },
+  "dependencies": {
+    "email-scramble": "^2.0.1",
+    "handlebars": "^4.1.2",
+    "moment": "^2.24.0",
+    "sass": "^1.25.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "nodemon": "^2.0.2",
+    "resume-cli": "^1.2.7",
+    "resume-schema": "0.0.18"
+  }
+}

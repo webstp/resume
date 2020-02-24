@@ -1,0 +1,48 @@
+{{#if resume.volunteer}}
+<section class="volunteer-wrapper">
+  <div class="detail">
+    <h3 class="title text-uppercase"><i class="fa fa-handshake-o"></i>Volunteer Work</h3>
+    <ul class="list-unstyled">
+      {{#resume.volunteer}}
+      <li class="detail-item">
+        <div class="detail-item-content">
+          <div class="detail-item-header">
+            <h4>
+              <strong>{{position}}</strong>
+              {{#if organization}}
+              {{#if website}}
+              <a href="{{website}}" target="_blank">{{organization}}</a>
+              {{else}}
+              <span>{{organization}}</span>
+              {{/if}}
+              {{/if}}
+            </h4>
+
+            {{#if startDate}}
+            <p class="text-muted">
+              <small>
+                <time datetime="{{startDate}}">{{formatDate startDate}}</time>&nbsp;—&nbsp;
+                {{#if endDate}}
+                <time datetime="{{endDate}}">{{formatDate endDate}}</time>
+                {{else}}
+                <time>Present</time>
+                {{/if}}
+              </small>
+            </p>
+            {{/if}}
+          </div>
+          <p>{{summary}}</p>
+          {{#if highlights}}
+          <ul class="highlights">
+            {{#highlights}}
+            <li>{{.}}</li>
+            {{/highlights}}
+          </ul>
+          {{/if}}
+        </div>
+      </li>
+      {{/resume.volunteer}}
+    </ul>
+  </div>
+</section>
+{{/if}}

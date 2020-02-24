@@ -1,0 +1,37 @@
+{{#if resume.publications}}
+<section class="publication-wrapper">
+  <div class="detail">
+    <h3 class="title text-uppercase"><i class="fa fa-book"></i>Publications</h3>
+
+    <ul class="list-unstyled">
+      {{#resume.publications}}
+      <li class="detail-item">
+        <div class="detail-item-content">
+          <div class="detail-item-header">
+            <h4>
+              <strong>{{name}}</strong>
+              {{#if publisher}}
+              {{#if website}}
+              <a href="{{website}}" target="_blank">{{publisher}}</a>
+              {{else}}
+              <span>{{publisher}}</span>
+              {{/if}}
+              {{/if}}
+            </h4>
+
+            {{#if releaseDate}}
+            <p class="text-muted">
+              <small>
+                <time datetime="{{releaseDate}}">{{formatDate releaseDate}}</time>
+              </small>
+            </p>
+            {{/if}}
+          </div>
+
+          <p>{{summary}}</p>
+      </li>
+      {{/resume.publications}}
+    </ul>
+  </div>
+</section>
+{{/if}}

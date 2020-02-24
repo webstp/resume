@@ -1,0 +1,11 @@
+{{#if resume.projects}}
+<section class="section projects-section">
+  <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+  {{#resume.projects}}
+  <div class="item">
+    <span class="project-title"><a href="{{url}}" target="_blank">{{name}}</a></span> -
+    <span class="project-tagline">{{#markdown}}{{description}}{{/markdown}}</span>
+  </div>
+  {{/resume.projects}}
+</section>
+{{/if}}

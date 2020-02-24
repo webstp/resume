@@ -1,0 +1,20 @@
+{{#if resume.references}}
+<section class="references-wrapper">
+  <div class="detail">
+    <h3 class="title text-uppercase"><i class="fa fa-thumbs-up"></i>References</h3>
+
+    <ul class="list-unstyled">
+      {{#each resume.references}}
+      <li class="detail-item">
+        <div class="detail-item-content">
+          <blockquote>
+            <p>{{reference}}</p>
+            <footer><cite title="{{name}}">{{name}}</cite></footer>
+          </blockquote>
+        </div>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>
+{{/if}}

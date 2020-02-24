@@ -1,0 +1,50 @@
+{{#if resume.work}}
+<section class="experiences-wrapper">
+  <div class="detail">
+    <h3 class="title text-uppercase"><i class="fa fa-building"></i>Experience</h3>
+
+    <ul class="list-unstyled">
+      {{#resume.work}}
+      <li class="detail-item">
+        <div class="detail-item-content">
+          <div class="detail-item-header">
+            <h4>
+              <strong>{{position}}</strong>
+              {{#if company}}
+              {{#if website}}
+              <a href="{{website}}" target="_blank">{{company}}</a>
+              {{else}}
+              <span>{{company}}</span>
+              {{/if}}
+              {{/if}}
+            </h4>
+
+            {{#if startDate}}
+            <span class="text-muted">
+              <small>
+                <time datetime="{{startDate}}">{{formatDate startDate}}</time>&nbsp;—&nbsp;
+                {{#if endDate}}
+                <time datetime="{{endDate}}">{{formatDate endDate}}</time>
+                {{else}}
+                <time>Present</time>
+                {{/if}}
+              </small>
+            </span>
+            {{/if}}
+
+          </div>
+          <p>{{summary}}</p>
+          {{#if highlights}}
+          <ul class="highlights">
+            {{#highlights}}
+            <li>{{.}}</li>
+            {{/highlights}}
+          </ul>
+          {{/if}}
+        </div>
+      </li>
+      {{/resume.work}}
+    </ul>
+  </div>
+</section>
+{{/if}}
