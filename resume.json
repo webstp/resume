@@ -26,10 +26,25 @@
     },
     "work": [
       {
+        "company": "FrontLobby",
+        "website": "https://frontlobby.com",
+        "position": "Senior Fullstack Web Developer",
+        "startDate": "2020-08-20",
+        "summary": "FrontLobby, a PropTech company, is helping improve renting for everyone by empowering Landlords and Property Managers while enriching the lives of responsible Tenants",
+        "highlights": [
+          "Built, maintained and improved a custom build pipeline using webpack",
+          "Designed and built integrations with Credit Bureaus to provide access to consumer files",
+          "Responsible for suite of automated tests leveraging WDIO, Mocha and Sinon",
+          "Managed junior developers, providing feedback and guidance through code reviews and 1 on 1 meetings",
+          "Leveraged technologies such as Docker, NodeJS, Typescript, Vue"
+        ]
+      },
+      {
         "company": "Akiri",
         "website": "https://akiri.com/",
         "position": "Senior Software Engineer",
         "startDate": "2017-12-18",
+        "endDate": "2020-07-15",
         "summary": "Worked at Akiri, a healthcare networking start-up, building a cloud-based product aimed at resolving the problems around the exchanging of healthcare data.",
         "highlights": [
           "Responsible for leading the development of the UI.",
@@ -99,13 +114,12 @@
         "keywords": [
           "HTML5",
           "SASS/LESS/CSS",
-          "JSON",
           "NodeJS",
-          "Angular/AngularJS",
+          "TypeORM",
+          "Angular",
           "RxJS",
-          "REST",
           "WebSockets",
-          "Vue/Vuetify"
+          "Vue"
         ]
       },
       {
@@ -121,7 +135,6 @@
         "name": "Developer Tools",
         "keywords": [
           "Git",
-          "IntelliJ",
           "VS Code",
           "Jenkins",
           "JIRA",
@@ -155,6 +168,18 @@
           "Catan",
           "Betrayal at House on the Hill",
           "Diplomacy"
+        ]
+      },
+      {
+        "name": "Reading",
+        "keywords": [
+          "Wheel of Time",
+          "The Belgariad",
+          "The Mallorean",
+          "Enders Saga",
+          "Sword of Truth",
+          "The Mither Mages",
+          "The Magicians"
         ]
       }
     ]
